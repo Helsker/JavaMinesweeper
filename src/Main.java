@@ -1,22 +1,12 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+public class Main
+{
+    public static void main (String[] args)
+    {
+        int x = 50;		//Width of the board
+        int y = 50;		//Height of the board
+        int d = 25;		//The difficulty of the game, the percentage of mines in the board. The number of mines per board is random, but this number is the probability that a cell will become
+        //a mine.
 
-
-
-/**
- *
- * @author H@$iB
- */
-public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-        Minesweeper ob=new Minesweeper();
+        new Minesweeper(x, y, d);
     }
-
 }
