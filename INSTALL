@@ -1,9 +1,5 @@
-Для сборки программы Сапер необходимо установить Java SE Development Kit 8u202 который доступен по ссылке https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+Р”Р»СЏ СЃР±РѕСЂРєРё РїСЂРѕРіСЂР°РјРјС‹ РЎР°РїРµСЂ РЅРµРѕР±С…РѕРґРёРјРѕ СѓСЃС‚Р°РЅРѕРІРёС‚СЊ Java SE Development Kit 8u202 РєРѕС‚РѕСЂС‹Р№ РґРѕСЃС‚СѓРїРµРЅ РїРѕ СЃСЃС‹Р»РєРµ https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+Р”Р»СЏ СЃР±РѕСЂРєРё Р·Р°РїСѓСЃС‚РёС‚СЊ СЃРєСЂРёРїС‚ build.bat
 
-для сборки запустить скрипт build.bat
-
-
-
-Для запуска программы Сапер необходимо установить Java SE Runtime Environment 8u202 который доступен по ссылке https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
-
-для запуска использовать скрипт ksr.bat находящийся в директории ksr/bin
+Р”Р»СЏ Р·Р°РїСѓСЃРєР° РїСЂРѕРіСЂР°РјРјС‹ РЎР°РїРµСЂ РЅРµРѕР±С…РѕРґРёРјРѕ СѓСЃС‚Р°РЅРѕРІРёС‚СЊ Java SE Runtime Environment 8u202 РєРѕС‚РѕСЂС‹Р№ РґРѕСЃС‚СѓРїРµРЅ РїРѕ СЃСЃС‹Р»РєРµ https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
+Р”Р»СЏ Р·Р°РїСѓСЃРєР° РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЃРєСЂРёРїС‚ ksr.bat РЅР°С…РѕРґСЏС‰РёР№СЃСЏ РІ РґРёСЂРµРєС‚РѕСЂРёРё ksr/bin
