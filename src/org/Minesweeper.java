@@ -26,14 +26,14 @@ public class Minesweeper extends JFrame
         reset();
 
         board = new Board(this);
-        reset = new JButton("Reset");
+        reset = new JButton("Начать заново");
 
         add(board, BorderLayout.CENTER);
         add(reset, BorderLayout.SOUTH);
 
         reset.addActionListener(new Actions(this));
 
-        setTitle("Minesweeper");
+        setTitle("Сапёр");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
         pack();
@@ -162,7 +162,7 @@ public class Minesweeper extends JFrame
             }
         }
         refresh();
-        JOptionPane.showMessageDialog(null, "BOOOOM!");
+        JOptionPane.showMessageDialog(null, "ПОРАЖЕНИЕ");
         reset();
     }
 
@@ -179,7 +179,7 @@ public class Minesweeper extends JFrame
         }
 
         refresh();
-        JOptionPane.showMessageDialog(null, "Congratulations! You won!");
+        JOptionPane.showMessageDialog(null, "Поздравляем! Вы победили!");
         reset();
     }
 
